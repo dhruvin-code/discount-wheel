@@ -1,0 +1,9 @@
+{
+  "name": "discount-wheel-netlify",
+  "version": "1.0.0",
+  "dependencies": {
+    "@netlify/blobs": "^0.1.0",
+    "uuid": "^9.0.0",
+    "cookie": "^0.6.0"
+  }
+}

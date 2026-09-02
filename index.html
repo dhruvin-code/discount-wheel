@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlock Your Reward | Luxury Deals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="brand-logo">Royal Crockery</div>
+            <h1 class="headline">YOUR LUCK JUST CHANGED.</h1>
+            <p class="subheadline">Spin once and unlock a special offer from Royal Crockery.</p>
+        </header>
+
+        <main class="wheel-section">
+            <div class="wheel-wrapper">
+                <div class="pointer"></div>
+                <canvas id="wheelCanvas" width="500" height="500"></canvas>
+            </div>
+
+            <button id="spinButton" class="btn-primary">SPIN & WIN</button>
+        </main>
+    </div>
+
+    <!-- Result Modal -->
+    <div id="resultModal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <div class="confetti-container" id="confetti"></div>
+            <h2 class="modal-title">🎉 YOU WON!</h2>
+            <div id="prizeDisplay" class="prize-value">--</div>
+            <div class="coupon-box">
+                <span class="coupon-label">YOUR UNIQUE CODE</span>
+                <div id="couponCode" class="coupon-code">--------</div>
+            </div>
+            <p id="expiryText" class="expiry-text">Expires in 24 hours</p>
+            <a href="https://example.com/shop" class="btn-cta">SHOP NOW</a>
+            <button id="closeModal" class="btn-secondary">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

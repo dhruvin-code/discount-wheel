@@ -1,0 +1,54 @@
+{
+  "spins": [
+    {
+      "id": 1788271179290,
+      "user_id": "9502e665-6895-4de1-9b73-13bfc8df1b8b",
+      "prize_index": 0,
+      "coupon_id": "d0f05014-c0b0-4799-85df-5bd83eb6599a",
+      "created_at": "2026-09-01T13:59:39.290Z"
+    },
+    {
+      "id": 1788271198532,
+      "user_id": "19b7259d-53c0-4b89-ae84-9342535c51f5",
+      "prize_index": 1,
+      "coupon_id": "f46725bd-95c8-43d8-83cc-bdcab7c352f6",
+      "created_at": "2026-09-01T13:59:58.532Z"
+    },
+    {
+      "id": 1788271213758,
+      "user_id": "1c0173f3-47b4-4c8c-8e77-78515900a1c5",
+      "prize_index": 3,
+      "coupon_id": "3f06d8d2-fd7b-496f-a26a-2f52cf889538",
+      "created_at": "2026-09-01T14:00:13.758Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "d0f05014-c0b0-4799-85df-5bd83eb6599a",
+      "code": "ROYAL-L6ZF94",
+      "discountValue": 0.1,
+      "userId": "9502e665-6895-4de1-9b73-13bfc8df1b8b",
+      "campaignId": "ROYAL_CROCKERY_2026",
+      "expiryAt": "2026-09-02T13:59:39.290Z",
+      "createdAt": "2026-09-01T13:59:39.290Z"
+    },
+    {
+      "id": "f46725bd-95c8-43d8-83cc-bdcab7c352f6",
+      "code": "ROYAL-YTYBA3",
+      "discountValue": 0.2,
+      "userId": "19b7259d-53c0-4b89-ae84-9342535c51f5",
+      "campaignId": "ROYAL_CROCKERY_2026",
+      "expiryAt": "2026-09-02T13:59:58.531Z",
+      "createdAt": "2026-09-01T13:59:58.531Z"
+    },
+    {
+      "id": "3f06d8d2-fd7b-496f-a26a-2f52cf889538",
+      "code": "ROYAL-43RU46",
+      "discountValue": 0.4,
+      "userId": "1c0173f3-47b4-4c8c-8e77-78515900a1c5",
+      "campaignId": "ROYAL_CROCKERY_2026",
+      "expiryAt": "2026-09-02T14:00:13.757Z",
+      "createdAt": "2026-09-01T14:00:13.757Z"
+    }
+  ]
+}
